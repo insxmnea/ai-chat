@@ -1,0 +1,10 @@
+.wrapper {
+  border-top: var(--border);
+  padding-top: 8px;
+}
+
+.chatsList {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}

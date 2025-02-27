@@ -8,4 +8,23 @@
 .sidebarTitle {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.sidebarTop {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonPanel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.searchButton {
+  background-color: transparent;
 }

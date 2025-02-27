@@ -9,7 +9,9 @@
   --color-black: #0e0c15;
   --color-accent-primary: #1c64f2;
 
+  --border: var(--color-gray-2) 1px solid;
   --border-radius: 18px;
+  --border-radius-btn: 8px;
 
   --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -28,4 +30,19 @@ body {
 
 span {
   font-size: 16px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-accent-primary);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: var(--border-radius-btn);
+  border: var(--border);
+}
+
+ul {
+  list-style: none;
 }
