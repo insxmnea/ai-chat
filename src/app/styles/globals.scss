@@ -9,6 +9,8 @@
   --color-black: #0e0c15;
   --color-accent-primary: #1c64f2;
 
+  --border-radius: 18px;
+
   --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -17,4 +19,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "IBM Plex Sans", serif;
+}
+
+body {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+span {
+  font-size: 16px;
 }

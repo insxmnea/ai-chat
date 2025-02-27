@@ -1,0 +1,11 @@
+.wrapper {
+  background-color: var(--color-gray-4);
+  width: 324px;
+  border-radius: var(--border-radius);
+  padding: 20px 16px;
+}
+
+.sidebarTitle {
+  display: flex;
+  justify-content: space-between;
+}
