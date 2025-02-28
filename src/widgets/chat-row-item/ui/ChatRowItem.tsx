@@ -2,6 +2,7 @@ import { FC } from "react";
 import { SidebarChatIcon } from "src/shared/assets/icons/sidebar-chat";
 import { TrashIcon } from "src/shared/assets/icons/trash";
 import styles from "./ChatRowItem.module.scss";
+import { ButtonWithIcon } from "src/shared/ui/button-with-icon";
 
 export const ChatRowItem: FC = () => {
   return (
@@ -10,7 +11,9 @@ export const ChatRowItem: FC = () => {
         <SidebarChatIcon />
         <span>Новый чат</span>
       </div>
-      <TrashIcon />
+      <ButtonWithIcon>
+        <TrashIcon />
+      </ButtonWithIcon>
     </li>
   );
 };

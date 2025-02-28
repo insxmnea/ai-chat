@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: var(--border);
+  padding: 0px 16px;
+  border-radius: var(--border-radius);
+  height: 72px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.avatar {
+  display: flex;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.name {
+  font-weight: var(--semibold);
+}
+
+.tokens {
+  font-size: 14px;
+}

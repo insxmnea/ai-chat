@@ -9,27 +9,37 @@
   --color-black: #0e0c15;
   --color-accent-primary: #1c64f2;
 
+  --gradient-premium: linear-gradient(
+    to right,
+    var(--color-accent-primary) 0%,
+    #d41cf2 100%
+  );
+
   --border: var(--color-gray-2) 1px solid;
   --border-radius: 18px;
   --border-radius-btn: 8px;
 
   --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  // Font-weights
+  --semibold: 600;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "IBM Plex Sans", serif;
 }
 
 body {
+  font-family: "IBM Plex Sans", serif;
   background-color: var(--color-black);
   color: var(--color-white);
 }
 
 span {
   font-size: 16px;
+  font-weight: 500;
 }
 
 button {
