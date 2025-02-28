@@ -16,10 +16,6 @@
   );
 
   --border: var(--color-gray-2) 1px solid;
-  --border-radius: 18px;
-  --border-radius-btn: 8px;
-
-  --box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   // Font-weights
   --semibold: 600;
@@ -49,7 +45,7 @@ button {
   background-color: var(--color-accent-primary);
   cursor: pointer;
   padding: 10px;
-  border-radius: var(--border-radius-btn);
+  border-radius: 8px;
   border: var(--border);
 }
 
